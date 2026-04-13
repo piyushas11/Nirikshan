@@ -1,0 +1,2 @@
+# Nirikshan
+Waste Tracking System
