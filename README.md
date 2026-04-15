@@ -1,2 +1,114 @@
-# Nirikshan
-Waste Tracking System
+# 🌌 Nebulon — Smart Waste Management System
+
+## 📌 Overview
+
+Nebulon is a full-stack smart waste management system designed to improve the efficiency, transparency, and reliability of garbage collection. The platform connects citizens, workers, and administrators through a centralized system with real-time tracking and intelligent decision-making.
+
+---
+
+## 🚀 Features
+
+### 👤 Citizen
+
+* Raise complaints with image upload
+* Track complaint status in real-time
+* Verify and approve resolution
+
+### 👷 Worker
+
+* View assigned tasks
+* Update collection status
+* Scan QR codes for location verification
+
+### 🧑‍💼 Admin
+
+* Monitor all complaints
+* Assign tasks to workers
+* Manage system operations
+
+### 🤖 AI Module
+
+* Anomaly detection using Isolation Forest
+* Identifies irregular patterns in waste collection
+* Helps prioritize actions
+
+### 🔳 QR System
+
+* Enables real-time tracking of waste collection
+* Ensures transparency and accountability
+
+---
+
+## 🧰 Tech Stack
+
+### Frontend
+
+* React (Vite)
+* HTML, CSS, JavaScript
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* SQL (PostgreSQL / Supabase)
+
+### Machine Learning
+
+* Python
+* Scikit-learn (Isolation Forest)
+
+---
+
+## 🔁 System Workflow
+
+1. Citizen submits a complaint with an image
+2. Complaint is stored in the database
+3. Admin assigns a worker
+4. Worker resolves the issue and updates status
+5. Citizen verifies and approves completion
+
+---
+
+## 📂 Project Structure
+
+```
+Nebulon/
+│
+├── client/        # Frontend (React)
+├── server/        # Backend (Node.js + Express)
+├── ml/            # Machine Learning module
+├── database/      # SQL schemas and data
+```
+
+---
+
+## 🔐 Security
+
+* Authentication and authorization implemented
+* Role-based access control (Citizen, Worker, Admin)
+
+---
+
+## 📈 Future Enhancements
+
+* Real-time notifications
+* Advanced AI for waste classification
+* Route optimization using machine learning
+* Mobile application support
+
+---
+
+## 🎯 Conclusion
+
+Nebulon provides a scalable and efficient solution for modern waste management by integrating full-stack development with AI capabilities, ensuring better service delivery and transparency.
+
+---
+
+## 👩‍💻 Author
+
+Vedika 
+Trrishaa
+Piyusha
